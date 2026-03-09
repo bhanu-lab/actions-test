@@ -1,0 +1,18 @@
+risk:
+  thresholds:
+    low: 30
+    medium: 60
+
+checks:
+  required: []
+
+security:
+  required: []
+
+evidence:
+  sticky_comment: true
+
+merge:
+  auto_merge: true
+  method: squash
+  require_decision: PASS
